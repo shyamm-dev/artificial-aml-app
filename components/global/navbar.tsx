@@ -13,7 +13,6 @@ import {
 async function Navbar() {
   const session = await auth();
   const user = session?.user;
-  console.log("Navbar session:", session);
 
   return (
     <header className="bg-black text-white p-4">

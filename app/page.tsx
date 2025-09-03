@@ -8,7 +8,6 @@ import {
 export default async function Home() {
   const session = await auth();
   const user = session?.user;
-  console.log("User session:", session);
 
   return (
     <div>
